@@ -33,12 +33,12 @@ S05_PeakCohearencePhase.R: Cross-spectral coherence and phase results for raw ti
 S06_Figures.R: Generates Figures 2–4 and Supplemental Figures S1–S3.
 
 Required packages:
-readxl 
-lme4 
-lmerTest 
-performance 
-DHARMa 
-lubridate 
+readxl, 
+lme4, 
+lmerTest, 
+performance, 
+DHARMa, 
+lubridate, 
 tidyverse
 
 Input files:
