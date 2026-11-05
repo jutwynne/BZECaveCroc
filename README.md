@@ -9,11 +9,11 @@ Date: 04 November 2026
 Analyses:
 1. Thermal threshold analyses using Lang (1979) data 
 
-2. Winter nighttime minimum temperature metrics (Table 3) 
+2. Winter nighttime winter temperature summaries (Table 2)
 
-3. Monthly nighttime temperatures per cave (Table 4) 
+3. Distributional winter nighttime minimum temperature metrics (Table 3) 
 
-4. Monthly nighttime temperatures per cave and datalogger (Table 5) 
+4. Monthly nighttime temperatures per cave and datalogger (Table 4) 
 
 5. Cross-spectral coherence and phase analyses (Table 5; Table S1) 
 
