@@ -4,7 +4,7 @@ Thermal Behavior of Crocodile Caves in Central Belize, Diversity (In Review)
 
 Authors: Wynne, J.J., Shaffer, I.N., and Roberts, J.
 
-Date: 04 November 2026
+Date: 05 November 2026
 
 Analyses:
 1. Thermal threshold analyses using Lang (1979) data 
