@@ -6,7 +6,7 @@ Authors: Wynne, J.J., Shaffer, I.N., and Roberts, J.
 
 Date: 05 November 2026
 
-Analyses:
+Summary statistics and analyses:
 1. Thermal threshold analyses using Lang (1979) data 
 
 2. Winter nighttime winter temperature summaries (Table 2)
