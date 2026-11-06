@@ -39,7 +39,8 @@ lmerTest,
 performance, 
 DHARMa, 
 lubridate, 
-tidyverse
+tidyverse,
+splines
 
 Input files:
 Croc_Lang.csv; 
