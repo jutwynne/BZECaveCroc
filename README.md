@@ -16,8 +16,11 @@ Analyses:
 
 Scripts:
 S01_ThermCroc.R: Thermal threshold analyses for (1) all observations across experimental conditions and (2) Fasted Nighttime as the reference condition.
+
 S02_Tables2-4.R: Generates Tables 2–4.
+
 S03_PeakCoherencePhase.R: Generates cross-spectral coherence and phase results for raw time series (Table 5) and detrended time series (Table S1).
+
 S04_Figures.R: Generates Figures 2–4 and Supplemental Figures S1–S3. Requires S03_PeakCoherencePhase.R to be run first.
 
 Required packages:
