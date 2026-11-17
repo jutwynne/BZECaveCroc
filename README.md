@@ -15,7 +15,7 @@ Analyses:
 5. Data-driven figures (Figures 2–4; Figures S1–S3).
 
 Scripts:
-S01_ThermCroc.R: Thermal threshold analyses for (1) all observations across experimental conditions and (2) Fasted Nighttime as the reference condition.
+S01_CrocThreshold_LangData.R: Thermal threshold analyses for (1) all observations across experimental conditions and (2) Fasted Nighttime as the reference condition.
 
 S02_Tables2-4.R: Generates Tables 2–4.
 
