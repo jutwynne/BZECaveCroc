@@ -1,49 +1,36 @@
-This repository contains R scripts for recreating several analyses presented in the publication:
+The following are the R scripts for recreating several analyses presented in the publication:
 
 Thermal Behavior of Crocodile Caves in Central Belize, Diversity (In Review)
 
 Authors: Wynne, J.J., Shaffer, I.N., and Roberts, J.
 
-Date: 05 November 2026
+Date: 16 November 2026
 
-Summary statistics and analyses:
-1. Thermal threshold analyses using Lang (1979) data 
 
-2. Winter nighttime winter temperature summaries (Table 2)
+Analyses:
+1. Thermal threshold analyses using Lang (1979) data.
+2. Winter minimum temperature metrics (Table 3).
+3. Monthly water temperature summaries per cave (Table 2) and per logger (Table 4).
+4. Cross-spectral coherence and phase analyses for raw time series (Table 5) and detrended time series (Table S1).
+5. Data-driven figures (Figures 2–4; Figures S1–S3).
 
-3. Distributional winter nighttime minimum temperature metrics (Table 3) 
-
-4. Monthly nighttime temperatures per cave and datalogger (Table 4) 
-
-5. Cross-spectral coherence and phase analyses (Table 5; Table S1) 
-
-6. Data-driven figures (Figures 2–4; Figures S1–S3)
-
-Scripts: 
-S01_ThermCroc.R: Thermal threshold analysis for both (1) all observations across experimental conditions and (2) Fasted Nighttime condition as the reference level
-
-S02_Month_Nighttime.R: Generates Table 2 from paper. Monthly median nighttime temperatures and percentage of nights above modeled thermal threshold.
-
-S03_Winter_NightMinima.R: Generates Table 3 from paper. Includes Minimum nightly temperature, 5th percentile, and 10th percentile per datalogger.
-
-S04_MonthLog_Nighttime.R: Generates Table 4 from paper. Monthly median nighttime temperatures and percentage of nights above modeled thermal threshold per datalogger.
-
-S05_PeakCohearencePhase.R: Cross-spectral coherence and phase results for raw time series (Table 5 from paper) and detrended time series (Table S1 from Supp. Mat. File 1).
-
-S06_Figures.R: Generates Figures 2–4 and Supplemental Figures S1–S3.
+Scripts:
+S01_ThermCroc.R: Thermal threshold analyses for (1) all observations across experimental conditions and (2) Fasted Nighttime as the reference condition.
+S02_Tables2-4.R: Generates Tables 2–4.
+S03_PeakCoherencePhase.R: Generates cross-spectral coherence and phase results for raw time series (Table 5) and detrended time series (Table S1).
+S04_Figures.R: Generates Figures 2–4 and Supplemental Figures S1–S3. Requires S03_PeakCoherencePhase.R to be run first.
 
 Required packages:
-readxl, 
-lme4, 
-lmerTest, 
-performance, 
-DHARMa, 
-lubridate, 
-tidyverse,
-splines
+readxl 
+lme4 
+lmerTest 
+performance 
+DHARMa 
+lubridate 
+tidyverse
 
 Input files:
-Croc_Lang.csv; 
+Croc_Lang.csv
 CaveCroc_Data.xlsx
 
 AI-Assisted Code Development:  
